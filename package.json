@@ -6,10 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoukrichiFouad97/Node-ls-tool.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Fouad Loukrichi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoukrichiFouad97/Node-ls-tool/issues"
+  },
+  "homepage": "https://github.com/LoukrichiFouad97/Node-ls-tool#readme",
   "bin": {
     "nls": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "express": "^4.17.1"
   }
 }
